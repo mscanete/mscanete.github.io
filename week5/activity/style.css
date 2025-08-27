@@ -1,0 +1,46 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f5f6fa;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.activity {
+  display: flex;
+  gap: 40px;
+  padding: 20px 40px;
+  background: #fff;
+  border-radius: 30px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+.character {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  color: #1e293b;
+ 
+}
+
+.character:hover {
+  color: white;
+  background-color: #004588;
+  cursor: pointer;
+  border-radius: 20px;
+  padding: 10px;
+
+}
+
+.character span {
+  font-size: 26px;
+}
+
+.character p {
+  margin: 0;
+  font-size: 16px;
+  font-weight: 600;
+}
+
